@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    /*outline: 1px solid rgb(68, 10, 68);*/
+}
+
+.contenedor{
+    background-color: darkslateblue;
+    color: white;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    width: 1080px;
+    padding-left: 20px;
+    font-family: 'Courier New';
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.buscador{
+    border-radius: 8px;
+    margin-left: auto;
+}
+.boton{
+    background-color: rgb(238, 123, 238);
+    border-radius: 8px;
+    margin: 0 20px;
+}
