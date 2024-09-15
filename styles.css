@@ -29,3 +29,29 @@
     border-radius: 8px;
     margin: 0 20px;
 }
+
+/* seccion de categoria*/
+
+.contenedorcategorias {
+    background-color: rgb(147, 134, 230);
+    color: white;
+    padding: 3px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.categoria {
+    width: 1080px;
+    padding-left: 20px;
+    font-family: 'Courier New';
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.onlive,
+.fav,
+.views {
+    margin-left: 100px;
+}
+
