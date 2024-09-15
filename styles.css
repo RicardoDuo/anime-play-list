@@ -58,14 +58,20 @@
 /*biblioteca de lista del contenido (anime) uwu */
 
 .biblioteca{
-    border: 1px solid blue;
     display:flex;
     justify-content: center;
 }
 
 .bibliocontent{
     width: 1080px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+figure{
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+    margin: 7px;
