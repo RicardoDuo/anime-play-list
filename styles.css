@@ -64,9 +64,18 @@
 
 .bibliocontent{
     width: 1080px;
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.content{
+    text-size-adjust: 100%;
+    background-color: darkslateblue;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    max-width: min-content;
 }
 
